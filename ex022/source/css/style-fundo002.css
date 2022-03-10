@@ -1,6 +1,5 @@
 body{
     width: 100%;
-
     margin: 0;
 }
 #cabecalho{
@@ -20,23 +19,20 @@ body{
 #logo-pt{
     width: 45px;
     height: 45px;
-    margin-bottom: 2px;
 }
 #box-pt{
-    padding: 2px;
     margin-left: 10px;
+    display: inline-block;
     width: 50px;
     height: 50px;
     background-color: white;
     border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
 
 }
 #lula{
-    display: block;
+    display: block  ;
     height: 350px;
     margin: auto;
+    border: 10px solid rgb(168, 16, 16);
+    border-radius: 0px;
 }
